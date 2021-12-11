@@ -1,0 +1,146 @@
+html {
+    background-color: whitesmoke;
+    font-family:'Rubik', sans-serif;
+  }
+  body{
+    margin: 0;
+  }
+  .col {
+    float: left;
+    padding: 10px;
+    padding-top: 40px;
+    font-size: 32px;
+    margin-top: 40px;
+  }
+  
+   
+  .col.sid {
+    width: 30%;
+  }
+  
+  
+  .col.mid {
+    color: white;
+    width: 40%;
+    background-color:#04458F;
+    border-radius: 10px 75px;
+    background-image: url(fundo.png);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.658), 0 10px 20px 0 rgba(0, 0, 0,0.658);
+    color:white;
+  }
+  
+  
+  
+  
+  input[type=email] {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #0000BC;
+    border-width: 2px;
+    border-radius: 40px;
+    outline: none;
+  }
+  
+  input[type=text] select, textarea{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #0000BC;
+    border-width: 2px;
+    border-radius: 40px;
+    outline: none;
+
+  }
+  input[type=text]{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #0000BC;
+    border-width: 2px;
+    border-radius: 40px;
+    outline: none;
+  }
+  
+  
+  label {
+    font-size: 26px;
+    padding: 1px 1px 1px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(37, 33, 33);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    font-family:'Rubik', sans-serif;
+    height: 55px;
+    font-size: 22px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: green;
+    transition: 1s;
+  }
+  input[type=reset]:hover {
+    background-color: crimson;
+    transition: 1s;
+  }
+  input[type=reset] {
+    background-color: rgb(37, 33, 33);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10px;
+    font-family:'Rubik', sans-serif;
+    height: 55px;
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+  
+  
+    
+  
+  ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #04458F;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+  }
+  
+  li a:hover {
+    transition: 0.5s;
+    background-color:#04458F;
+  }
+  
+  li a:hover:not(.entr) {
+    background-color:#04458F;
+  }
+  
+  .entr {
+    background-color:#5D3AB0;
+  }
+  h1{
+      font-size: 50px;
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PegasusTech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+
+    <link href="contato.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+     
+    <div class="header">
+        <ul>
+            <li><a href="contato.html">Contato</a></li>
+            <li style="float:right"><a href="index.html">PegasusTech</a></li>
+             <li><a href="sobre.html">Sobre Nós</a></li>
+             
+          </ul>
+          
+    </div>
+    <div class="row"><center><h1>Fale conosco: </h1></center><div class="col sid"></div>
+    <div class="col mid" >
+        
+        <div class="box">
+    <div class="contf">
+        <form name="contform" action ="contato.php" method ="POST">
+            <label>Nome: </label>
+            <input type="text" name="nome" id="nome" size ="50" maxlength="30"></br></br>
+            <label>Email: </label>
+            <input type="email" name="email" size ="50" maxlenght="30"></br></br>
+            <label>Mensagem: </label>
+            <textarea name="mensagem" size ="100" maxlenght="80" height ="150" style="height:150px"></textarea></br></br>
+            <input type="submit" value="Enviar" name="enviar">
+            <input type="reset" value="Limpar" name="cancelar">
+        </form>
+    </div>
+    </div>
+    </div>
+    
+      
+
+</body>
+</html>
